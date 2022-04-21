@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="form.css" media="">
+    <title>Form</title>
+</head>
+
+<body>
+    <div>
+        <h1 id="title">Cadastro de Dev's</h1>
+        <p id="subTitle">Complete suas informações</p>
+    </div>
+
+    <form action="">
+        <fieldset class="group">
+            <div class="camp">
+                <label for="name"><strong>Nome</strong></label>
+                <input type="text" id="name" required>
+            </div>
+
+            <div class="camp">
+                <label for="lastName"><strong>Sobrenome</strong></label>
+                <input type="text" id="lastName" name="Sobrenome" required>
+
+            </div>
+
+        </fieldset>
+
+        <div class="camp">
+            <label for="e-mail"><strong>e-mail</strong></label>
+            <input type="email" id="e-mail" name="e-mail" required>
+        </div>
+
+        <fieldset id="group">
+            <div class="camp">
+                <label for="">Em qual turma da mentoria CSV você está ?</label>
+                <select name="csvGroup" id="csvGroup">
+                    <option selected disabled value="">Selecione</option>
+                    <option value="group01">Turma 01</option>
+                    <option value="group02">Turma 02</option>
+                    <option value="group03">Turma 03</option>
+                    <option value="group04">Turma 04</option>
+                    <option value="group05">Turma 05</option>
+                    <option value="group06">Turma 06</option>
+                    <option value="group07">Turma 07</option>
+                    <option value="group08">Turma 08</option>
+                    <option value="group09">Turma 09</option>
+                    <option value="group10">Turma 10</option>
+                    <option value="group11">Turma 11</option>
+                    <option value="group12">Turma 12</option>
+                    <option value="group13">Turma 13</option>
+                </select>
+            </div>
+        </fieldset>
+
+        <div class="camp">
+            <label for="">Você programa em qual aplicação ?</label>
+            <label for="">
+                <input type="radio" name="devweb" id="front-end" value="front-end" checked> Front-end
+            </label>
+
+            <label for="">
+                <input type="radio" name="devweb" id="back-end" value="back-end"> Back-end
+            </label>
+
+            <label for="">
+                <input type="radio" name="devweb" id="full-stack" value="full-stack"> Full-Stack
+            </label>
+        </div>
+
+        <div class="camp">
+            <label for="senioridade">Senioridade</label>
+            <select name="senioridade" id="senioridade">
+                <option selected disabled value="">Selecione</option>
+                <option value="junior">Junior</option>
+                <option value="Pleno">Pleno</option>
+                <option value="Senior">Senior</option>
+            </select>
+        </div>
+
+        <fieldset class="group">
+            <div id="check">
+                <label for="">Quais tecnologias utiliza ?</label><br><br>
+                <input type="checkbox" id="html" name="html" value="html">
+                <label for="html">HTML</label>
+
+                <input type="checkbox" id="css" name="css" value="css">
+                <label for="css">CSS</label>
+
+                <input type="checkbox" id="js" name="js" value="js">
+                <label for="js">JavaScript</label>
+
+                <input type="checkbox" name="php" id="php" value="php">
+                <label for="php">PHP</label>
+
+                <input type="checkbox" name="c#" id="c#" value="c#">
+                <label for="c#">C#</label>
+
+                <input type="checkbox" id="python" name="python" value="python">
+                <label for="python"> Python </label>
+
+                <input type="checkbox" id="java" name="java" value="java">
+                <label for="java">Java</label>
+            </div>
+        </fieldset>
+
+        <div class="camp">
+            <br>
+            <label for="">Conte um pouco de sua experiência</label>
+            <textarea rows="6" cols="32" name="experiencia" id="experiencia"></textarea>
+        </div>
+
+        <button class="button" type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>
