@@ -15,7 +15,7 @@ https://fabiocosta123.github.io/form/
 [x] criar botão submit;
 
 ## form js
-[] capturar dados dos inputs e select e colocar num array de objetos;
-[] criar função para buscar esses dados 
+[x] capturar dados dos inputs e select;
+[x] criar função para buscar esses dados 
 [] mostrar na tela resultado de quantos programadores tem em suas linguagens e de  qual turma pertencem;
 
