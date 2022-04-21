@@ -1,3 +1,12 @@
+#form
+Objetivo de treinar conceitos básicos, nessa primeira fase será usada apenas HTML e CSS;
+Na segunda fase será acrescido JavaScript para capturar informações e devolver ao usuário o resultado,
+se tem mais pessoas no front, back ou fullstack hoje programando e a turma que pertencem.
+Para acessar clique no link abaixo;
+
+https://fabiocosta123.github.io/form/
+
+
 # form html
 [x] Criar estrutura html;
 [x] criar título;
