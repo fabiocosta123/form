@@ -1,5 +1,5 @@
 // pega dados dos inputs e select
-let nome = document.getElementById('name').value
+/*let nome = document.getElementById('name').value
 let lastName = document.getElementById('lastName').value
 let email = document.getElementById('email').value
 
@@ -28,7 +28,7 @@ function turma() {
     let text = optionValue.text // pega o nome do valor
 
 
-}
+}*/
 
 //pegar dados da aplicação (linguagem em que programa)
 
@@ -37,8 +37,11 @@ let backend = document.getElementById('back-end').value
 let fullstack = document.getElementById('full-stack').value*/
 
 
-let check = document.querySelector('input[type="radio"]:checked').value
-console.log(check)
+/*let check = document.querySelector('input[type="radio"]:checked').value
+console.log(check)*/
+
+
+
 
 
 
