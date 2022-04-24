@@ -1,0 +1,19 @@
+{
+  "name": "formulario",
+  "version": "1.0.0",
+  "description": "Cadastro de dev's",
+  "main": "form.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabiocosta123/form.git"
+  },
+  "author": "Fabio Costa Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabiocosta123/form/issues"
+  },
+  "homepage": "https://github.com/fabiocosta123/form#readme"
+}
