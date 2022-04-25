@@ -1,3 +1,5 @@
+const db = require("./models/form-devDB.js");
+
 // pega dados dos inputs e select
 /*let nome = document.getElementById('name').value
 let lastName = document.getElementById('lastName').value
@@ -36,18 +38,5 @@ function turma() {
 let backend = document.getElementById('back-end').value
 let fullstack = document.getElementById('full-stack').value*/
 
-
 /*let check = document.querySelector('input[type="radio"]:checked').value
 console.log(check)*/
-
-
-
-
-
-
-
-
-
-
-
-
